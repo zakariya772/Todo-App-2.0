@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit flow</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="todo-app">
+
+  <h1>Todo App</h1>
+
+  <div class="input-area">
+    <input
+      type="text"
+      class="task-input"
+      placeholder="Add a new task"
+    >
+    <button class="add-btn">Add</button>
+  </div>
+
+  <ul class="task-list">
+    <!-- Tasks will appear here -->
+  </ul>
+
+  <p class="empty-state">
+    No tasks yet
+  </p>
+
+  <div class="footer">
+
+    <span class="task-count">
+      0 tasks left
+    </span>
+
+    <div class="filters">
+      <button class="filter-btn all clicked">All</button>
+      <button class="filter-btn active">Active</button>
+      <button class="filter-btn completed">Completed</button>
+      <button class="filter-btn clear">Clear Completed</button>
+    </div>
+
+  </div>
+
+</div>
+<script defer src="./script.js"></script>
+</body>
+</html>
