@@ -252,3 +252,75 @@ body {
     flex-direction: column;
     margin-top: 2rem;
 }
+
+@media(max-width:85em){
+    html{
+        font-size: 62.5%;
+    }
+    .todo-app{
+        max-width: 40%;
+    }
+}
+@media (max-width:62.5em){
+    html{
+        font-size: 62.5%;
+    }
+    .todo-app{
+        max-width: 50%;
+    }
+}
+@media (max-width:50em){
+      html{
+        font-size: 62.5%;
+    }
+     .todo-app{
+        max-width:70%;
+    }
+}
+
+@media (max-width:36.25em){
+    html{
+        font-size: 62.5%;
+    }
+    .todo-app{
+        max-width:90%;
+    }
+    .filters__container{
+        gap: 1rem;
+    }
+    .task-input{
+        max-width: 50%;
+    }
+}
+
+@media(max-width:26.25em){
+    html{
+        font-size: 62.5%;
+    }
+    .todo-app{
+        max-width: 95%;
+    }
+    .filters{
+        flex-direction: column;
+        gap: 2rem;
+        padding-inline:2rem;
+    }
+    .filters__container{
+        justify-content: center;
+    }
+    .task-content{
+        width: 70%;
+    }
+    .edit-input{
+        width: 70%;
+    }
+}
+
+@media(max-width:21.25em){
+       html{
+        font-size: 62.5%;
+    }
+     .task-input{
+        max-width: 40%;
+    }
+}
