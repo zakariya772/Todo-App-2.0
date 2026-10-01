@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Habit flow</title>
+    <title>Todo-app v2</title>
     <link rel="stylesheet" href="./style.css">
+     <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
 <body>
     <div class="todo-app">
@@ -17,7 +20,7 @@
       class="task-input"
       placeholder="Add a new task"
     >
-    <button class="add-btn">Add</button>
+    <button class="add-btn">Add Task</button>
   </div>
 
   <ul class="task-list">
@@ -35,10 +38,12 @@
     </span>
 
     <div class="filters">
-      <button class="filter-btn all clicked">All</button>
-      <button class="filter-btn active">Active</button>
-      <button class="filter-btn completed">Completed</button>
-      <button class="filter-btn clear">Clear Completed</button>
+      <div class="filters__container">
+      <button class="filters__btn all clicked filters-clicked">All</button>
+      <button class="filters__btn active">Active</button>
+      <button class="filters__btn completed">Completed</button>
+      </div>
+      <button class="filters__btn clear">Clear Completed</button>
     </div>
 
   </div>
